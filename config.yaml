@@ -1,7 +1,7 @@
 name: "Batmon"
 description: "Monitor various BMS over bluetooth"
-url: https://github.com/fl4p/batmon-ha
-version: "1.81"
+url: https://github.com/cjdavo/batmon-ha
+version: "1.82"
 slug: "batmon"
 init: false
 host_dbus: true
@@ -29,7 +29,7 @@ discovery:
 options:
   devices:
     - address: D6:6C:0A:61:14:30
-      type: sok
+      type: supervolt
       alias: battery1
   concurrent_sampling: false
   keep_alive: true
