@@ -82,7 +82,7 @@ class SuperVoltBt(BtBms):
         rxtx_uuids = {
             # key: std uart TX (tx on device/BMS side, rx on host)
             # https://github.com/fl4p/batmon-ha/issues/226
-            '6e400003-b5a3-f393-e0a9-e50e24dcca9e': '6e400002-b5a3-f393-e0a9-e50e24dcca9e',  # old
+            # '6e400003-b5a3-f393-e0a9-e50e24dcca9e': '6e400002-b5a3-f393-e0a9-e50e24dcca9e',  # old
             '0000ff02-0000-1000-8000-00805f9b34fb': '0000ff01-0000-1000-8000-00805f9b34fb',  # new
         }
 
